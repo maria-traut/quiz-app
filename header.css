@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+}
+
+.header__title {
+  position: relative;
+  justify-content: center;
+  background-color: rgb(150, 120, 189);
+  height: 100px;
+  width: 100%;
+  font-size: 50px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.header__subtitle {
+  position: absolute;
+  top: 100px;
+  background-color: rgb(150, 120, 189);
+  width: 100%;
+  padding: 20px;
+}
