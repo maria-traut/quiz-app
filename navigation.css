@@ -9,8 +9,16 @@
   list-style: none;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
   margin: 0;
+}
+
+.nav-icon {
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.nav-icon:hover {
+  background-color: rgb(247, 125, 145);
 }
 
 .nav-links img {

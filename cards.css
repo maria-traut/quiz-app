@@ -23,6 +23,11 @@
   width: 50px;
 }
 
+.question-card__bookmark:hover {
+  height: 70px;
+  width: 70px;
+}
+
 .question-card__title {
   font-size: 20px;
 }
