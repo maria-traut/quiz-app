@@ -3,8 +3,6 @@
 }
 
 .header__title {
-  position: relative;
-  justify-content: center;
   background-color: rgb(150, 120, 189);
   height: 100px;
   width: 100%;
