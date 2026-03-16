@@ -17,8 +17,8 @@
 
 .question-card__bookmark {
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -0.3em;
+  right: -0.3em;
   height: 3.3em;
   width: 3.3em;
 }
@@ -35,7 +35,7 @@
 .answer-button {
   border-radius: 1.25em;
   padding: 0.5em 1em 0.5em 1em;
-  background-color: rgb(247, 125, 145);
+  background-color: rgb(226, 120, 164);
 }
 
 .category-list {

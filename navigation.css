@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgb(158, 101, 233);
+  background-color: rgb(155, 109, 216);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -12,12 +12,22 @@
   margin: 0;
 }
 
-.nav-icon {
-  padding: 20px;
-  border-radius: 20px;
+.nav-icon--homepage {
+  background-color: rgb(247, 125, 145);
 }
 
-.nav-icon:hover {
+.nav-icon--homepage,
+.nav-icon--bookmarks,
+.nav-icon--profile {
+  padding: 1.25em;
+  border-radius: 1.25em;
+}
+
+.nav-icon--bookmarks:hover {
+  background-color: rgb(247, 125, 145);
+}
+
+.nav-icon--profile:hover {
   background-color: rgb(247, 125, 145);
 }
 
