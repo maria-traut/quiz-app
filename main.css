@@ -8,7 +8,7 @@
   flex-direction: column;
   gap: 0.5em;
   background-color: rgb(201, 170, 243);
-  border-radius: 1.25em;
+  border-radius: 1em;
   margin: 1em 1em;
   padding: 1.25em;
   border-color: black;
@@ -17,10 +17,10 @@
 
 .question-card__bookmark {
   position: absolute;
-  top: -5px;
-  right: -5px;
-  height: 3.3em;
-  width: 3.3em;
+  top: -0.5em;
+  right: -0.5em;
+  height: 3em;
+  width: 3em;
 }
 
 .question-card__bookmark:hover {
@@ -30,12 +30,19 @@
 
 .question-card__title {
   font-size: 1.25em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+}
+
+p {
+  padding: 0.5em;
 }
 
 .answer-button {
-  border-radius: 1.25em;
-  padding: 0.5em 1em 0.5em 1em;
-  background-color: rgb(247, 125, 145);
+  border-radius: 1em;
+  padding: 0.5em;
+  background-color: rgb(247, 125, 162);
+  border-color: rgb(238, 95, 119);
 }
 
 .category-list {
@@ -44,11 +51,12 @@
   flex-direction: row;
   justify-content: center;
   gap: 0.25em;
+  padding: 0.5em;
 }
 
 .category {
-  border-radius: 1.25em;
-  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 1em;
   background-color: rgb(219, 201, 245);
   border: none;
+  padding: 0.5em 1em 0.5em 1em;
 }
