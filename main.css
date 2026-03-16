@@ -6,11 +6,11 @@
 .question-card {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.5em;
   background-color: rgb(201, 170, 243);
-  border-radius: 20px;
-  margin: 15px 15px;
-  padding: 20px;
+  border-radius: 1.25em;
+  margin: 1em 1em;
+  padding: 1.25em;
   border-color: black;
   position: relative;
 }
@@ -19,22 +19,22 @@
   position: absolute;
   top: -5px;
   right: -5px;
-  height: 50x;
-  width: 50px;
+  height: 3.3em;
+  width: 3.3em;
 }
 
 .question-card__bookmark:hover {
-  height: 70px;
-  width: 70px;
+  height: 4em;
+  width: 4em;
 }
 
 .question-card__title {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .answer-button {
-  border-radius: 20px;
-  padding: 5px 10px 5px 10px;
+  border-radius: 1.25em;
+  padding: 0.5em 1em 0.5em 1em;
   background-color: rgb(247, 125, 145);
 }
 
@@ -43,12 +43,12 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 5px;
+  gap: 0.25em;
 }
 
 .category {
-  border-radius: 20px;
-  padding: 5px 10px 5px 10px;
+  border-radius: 1.25em;
+  padding: 0.5em 1em 0.5em 1em;
   background-color: rgb(219, 201, 245);
   border: none;
 }
