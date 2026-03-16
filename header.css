@@ -1,9 +1,11 @@
 .header {
-  display: flex;
+  text-align: center;
 }
 
 .header__title {
-  background-color: rgb(123, 76, 185);
+  position: fixed;
+  justify-content: center;
+  background-color: rgb(158, 101, 233);
   height: 100px;
   width: 100%;
   font-size: 50px;
@@ -14,7 +16,8 @@
 .header__subtitle {
   position: absolute;
   top: 100px;
-  background-color: rgb(123, 76, 185);
+  background-color: rgb(158, 101, 233);
+  height: 70px;
   width: 100%;
   padding: 20px;
 }
