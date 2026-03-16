@@ -1,0 +1,19 @@
+.navbar {
+  background-color: rgb(123, 76, 185);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+}
+
+.nav-links img {
+  height: 50px;
+  width: auto;
+}
