@@ -11,7 +11,6 @@
   border-radius: 1em;
   margin: 1em 1em;
   padding: 1.25em;
-  border-color: black;
   position: relative;
 }
 
@@ -30,19 +29,28 @@
 
 .question-card__title {
   font-size: 1.25em;
-  padding-left: 1.75em;
-  padding-right: 1.75em;
+  padding: 1em 1.75em 0.5em 1.75em;
 }
 
 p {
   padding: 0.5em;
+  font-size: 1em;
+  padding: 0 1.75em 1em 1.75em;
 }
 
 .answer-button {
   border-radius: 1em;
   padding: 0.5em;
+  background-color: rgb(219, 201, 245);
+  border: 0.25em dotted rgb(238, 95, 119);
+  width: 10em;
+  align-self: center;
+  font-size: 1em;
+}
+
+.answer-button:hover {
   background-color: rgb(247, 125, 162);
-  border-color: rgb(238, 95, 119);
+  border: 0.25em dotted rgb(238, 95, 119);
 }
 
 .category-list {
@@ -50,7 +58,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 0.25em;
+  gap: 0.5em;
   padding: 0.5em;
 }
 

@@ -5,21 +5,21 @@
 .header__title {
   position: fixed;
   justify-content: center;
-  background-color: rgb(158, 101, 233);
-  height: 100px;
+  background-color: rgb(145, 96, 209);
+  height: 2.2em;
   width: 100%;
-  font-size: 50px;
-  padding: 20px;
+  font-size: 3em;
+  padding: 0.5em;
   z-index: 1;
 }
 
 .header__subtitle {
   position: absolute;
   top: 100px;
-  background-color: rgb(158, 101, 233);
-  height: 50px;
+  background-color: rgb(145, 96, 209);
+  height: 2em;
   width: 100%;
-  padding: 0 20px 20px 20px;
+  padding: 0.1em 1.25em 1.25em 1.25em;
   font-weight: lighter;
   border-bottom-left-radius: 0.5em;
   border-bottom-right-radius: 0.5em;
