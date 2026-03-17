@@ -3,7 +3,8 @@
   text-align: left;
 }
 
-.profile {
+.profile,
+.profile__settings {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
@@ -14,7 +15,57 @@
   position: relative;
 }
 
+.profile__picture {
+  position: absolute;
+  top: 3em;
+  left: 3em;
+  height: 10em;
+  width: 10em;
+  border-radius: 1.25em;
+  border: 0.25em dotted rgb(238, 95, 119);
+}
+
 .profile__title {
+  text-align: right;
+  font-size: 1.25em;
+  padding: 1em 1.75em 0.5em 1.75em;
+}
+
+.profile__free-text {
+  left: 0.1em;
+}
+
+.profile__bookmark {
+  height: 3em;
+  width: 3em;
+}
+
+.profile__button-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile__solved-questions,
+.profile__added-bookmarks {
+  background-color: rgb(219, 201, 245);
+  border: 0.25em dotted rgb(145, 96, 209);
+  height: 5em;
+  width: 7em;
+  border-radius: 1.25em;
+}
+
+.button__dark-mode {
+  border-radius: 1em;
+  padding: 0.5em;
+  background-color: rgb(219, 201, 245);
+  border: 0.25em dotted rgb(238, 95, 119);
+  width: auto;
+  align-self: left;
+  font-size: 1em;
+}
+
+.profile__settings-title {
   text-align: left;
   font-size: 1.25em;
   padding: 1em 1.75em 0.5em 1.75em;

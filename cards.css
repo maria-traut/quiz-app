@@ -23,8 +23,10 @@
 }
 
 .question-card__bookmark:hover {
-  height: 4em;
-  width: 4em;
+  height: 4.7em;
+  width: 4.7em;
+  top: -0.7em;
+  right: -0.7em;
 }
 
 .question-card__title {
@@ -50,7 +52,7 @@ p {
 
 .answer-button:hover {
   background-color: rgb(247, 125, 162);
-  border: 0.25em dotted rgb(238, 95, 119);
+  border: 0.25em dotted rgb(236, 59, 89);
 }
 
 .category-list {
