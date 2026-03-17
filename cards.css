@@ -29,6 +29,18 @@
   right: -0.7em;
 }
 
+.question-card__bookmark-big {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  height: 3em;
+  width: 3em;
+  height: 4.7em;
+  width: 4.7em;
+  top: -0.7em;
+  right: -0.7em;
+}
+
 .question-card__title {
   font-size: 1.25em;
   padding: 1em 1.75em 0.5em 1.75em;
