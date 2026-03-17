@@ -10,15 +10,19 @@
   gap: 0.5em;
   background-color: rgb(201, 170, 243);
   border-radius: 1em;
-  margin: 1em 1em;
+  margin: 1em 1.1em 1.5em 1em;
   padding: 1.25em;
   position: relative;
+  height: 37em;
+  box-shadow: 5px 5px 10px rgb(132, 111, 163);
 }
 
+/* about me */
+
 .profile__picture {
-  position: absolute;
-  top: 3em;
-  left: 3em;
+  top: 4em;
+  left: 4em;
+  margin: 2em 0 0.5em 2em;
   height: 10em;
   width: 10em;
   border-radius: 1.25em;
@@ -26,24 +30,16 @@
 }
 
 .profile__title {
-  text-align: right;
   font-size: 1.25em;
   padding: 1em 1.75em 0.5em 1.75em;
-}
-
-.profile__free-text {
-  left: 0.1em;
-}
-
-.profile__bookmark {
-  height: 3em;
-  width: 3em;
 }
 
 .profile__button-list {
   list-style: none;
   display: flex;
   flex-direction: row;
+  padding-left: 2em;
+  gap: 1em;
 }
 
 .profile__solved-questions,
@@ -55,18 +51,24 @@
   border-radius: 1.25em;
 }
 
-.button__dark-mode {
-  border-radius: 1em;
-  padding: 0.5em;
-  background-color: rgb(219, 201, 245);
-  border: 0.25em dotted rgb(238, 95, 119);
-  width: auto;
-  align-self: left;
-  font-size: 1em;
+.profile__bookmark {
+  height: 3em;
+  width: 3em;
 }
+
+/* settings */
 
 .profile__settings-title {
   text-align: left;
   font-size: 1.25em;
   padding: 1em 1.75em 0.5em 1.75em;
+}
+
+.button__dark-mode {
+  border-radius: 1em;
+  padding: 1em 1.75em 0.5em 1.75em;
+  background-color: rgb(219, 201, 245);
+  border: 0.25em dotted rgb(238, 95, 119);
+  width: 15em;
+  font-size: 1em;
 }

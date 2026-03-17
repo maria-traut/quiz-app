@@ -9,10 +9,13 @@
   gap: 0.5em;
   background-color: rgb(201, 170, 243);
   border-radius: 1em;
-  margin: 1em 1em;
+  margin: 1em 1.1em 1.5em 1em;
   padding: 1.25em;
   position: relative;
+  box-shadow: 5px 5px 10px rgb(132, 111, 163);
 }
+
+/* bookmark */
 
 .question-card__bookmark {
   position: absolute;
@@ -41,16 +44,22 @@
   right: -0.7em;
 }
 
+/* question (title) */
+
 .question-card__title {
   font-size: 1.25em;
   padding: 1em 1.75em 0.5em 1.75em;
 }
+
+/* answer */
 
 p {
   padding: 0.5em;
   font-size: 1.25em;
   padding: 0 1.75em 0.75em 1.75em;
 }
+
+/* answer-button */
 
 .answer-button {
   border-radius: 1em;
@@ -66,6 +75,8 @@ p {
   background-color: rgb(247, 125, 162);
   border: 0.25em dotted rgb(236, 59, 89);
 }
+
+/* categories */
 
 .category-list {
   list-style: none;
